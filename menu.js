@@ -6,7 +6,7 @@ function menuClose() {
   myTopMenu.style.left = '-110%';
 }
 
-function menuOpen() {
+ menuOpen() {
   myTopMenu.style.left = '0';
 }
 
@@ -17,4 +17,4 @@ document.querySelectorAll('.claList').forEach((item) => {
 });
 
 closeIcon.addEventListener('click', menuClose);
-openIcon.addEventListener('click', menuOpen)
+openIcon.addEventListener('click', menuOpen);
